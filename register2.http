@@ -1,0 +1,11 @@
+POST http://20.244.56.144/evaluation-service/auth
+Content-Type: application/json
+
+{
+    "email": "ankitkumar.12a.13@gmail.com",
+    "name": "Kumar Ankit",
+    "rollNo": "2205743",
+    "accessCode": "nwpwrZ",
+    "clientID": "1bf504f3-2e3e-49e4-8c99-91762af88512",
+    "clientSecret": "WFNmZJqqnkDBtuUT"
+}

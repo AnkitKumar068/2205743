@@ -1,0 +1,12 @@
+POST http://20.244.56.144/evaluation-service/register
+Content-Type: application/json
+
+{
+    "email": "ankitkumar.12a.13@gmail.com",
+    "name": "Kumar Ankit",
+    "mobileNo": "6202245004",
+    "githubUsername": "AnkitKumar068",
+    "rollNo": "2205743",
+    "collegeName": "Kalinga Institue Of Industrial Technology",
+    "accessCode": "nwpwrZ"
+}
