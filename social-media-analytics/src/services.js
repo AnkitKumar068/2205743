@@ -9,7 +9,7 @@ const getTopUsers = async () => {
     let accessToken = process.env.ACCESS_TOKEN;
 
     if (!accessToken) {
-      accessToken = await getAccessToken(); // Fetch new token if not available
+      accessToken = await getAccessToken(); 
     }
 
     const usersRes = await axios.get(`${BASE_URL}/users`, {

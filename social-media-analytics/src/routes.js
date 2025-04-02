@@ -2,8 +2,6 @@ const express = require("express");
 const { getTopUsers, getTopPosts } = require("./services");
 
 const router = express.Router();
-
-// Route to get top users
 router.get("/users", async (req, res) => {
   try {
     const users = await getTopUsers();
@@ -13,7 +11,6 @@ router.get("/users", async (req, res) => {
   }
 });
 
-// Route to get top/latest posts
 router.get("/posts", async (req, res) => {
   try {
     const type = req.query.type;
